@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .animate-spin-slow {
+      animation: spin 2s linear infinite;
+    }
+  }
+
+
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1a365d, #63b3ed);
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    width: 100%; /* Ensure full width matches the viewport */
+  }
+  
